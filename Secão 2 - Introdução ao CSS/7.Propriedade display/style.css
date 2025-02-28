@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  border: 2px solid red;
+  width: 25%;
+}
+
+p {
+  background-color: #ccc;
+  width: 80%;
+}
+
+a {
+  background-color: yellow;
+  display: block;
+}
+
+b {
+  background-color: lightblue;
+  display: inline-block;
+  margin: 5px;
+  padding: 5px;
+}
+
+em {
+  /*   display: none; */ /* Oculta do elemento, remove do html a exibição */
+  visibility: hidden; /* oculta o elemento mais deixa seu espaço no documento */
+}
